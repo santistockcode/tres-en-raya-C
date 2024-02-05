@@ -1,4 +1,8 @@
-
+/*
+partida.c
+Funciones para una nueva partida, centradas en lo que 
+atañe a la partida y el tablero.
+*/
 #include "header3r.h"
 
 // typedefs
@@ -177,19 +181,4 @@ void nueva_partida()
         }
     }/// fin bucle que pregunta una selección al usuario
 }
-    /// mostrar chuleta para selecciones
-    /// mostrar tablero-actual
-    /// mostrar mensaje de turno y preguntar casilla
-    /// si la casilla es valida (se pone la ficha) y se cambia de turno
-
-    /// si la casilla no es valida, se vuelve a preguntar
-
-    /// evaluar si se ha terminado la partida
-
-
-/// si se ha terminado la partida limpiar pantalla
-    /// mostrar tablero final
-    /// mostrar mensaje de quién ganó
-
-/// fin funcion nueva partida (sale a: ¿quieres jugar nueva partida?)
 

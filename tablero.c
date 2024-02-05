@@ -1,10 +1,13 @@
-
+/*
+tablero.c
+Funciones que atañen a las casillas y selecciones
+de les jugadores
+*/
 #include "header3r.h"
 
 // typedefs
 typedef int i_casilla[2];
 typedef int i_tablero[3][3];
-
 
 // función que transforma un int de casilla a typedef casilla
 void seleccion_posicion(i_casilla posicion, int seleccion)
@@ -54,8 +57,6 @@ void seleccion_posicion(i_casilla posicion, int seleccion)
     }
 }
 
-// función para evaluar si se ha terminado la partida
-
 // función evalua si es válida la casilla (recibe el tablero, la casilla int y el jugador), la modifica y devuelve true o false
 int     evaluar_casilla(i_tablero tablero, int *casilla, int jugador)
 {
@@ -68,6 +69,3 @@ int     evaluar_casilla(i_tablero tablero, int *casilla, int jugador)
         return 0;
     }
 }
-// función que muestra la chuleta de las casillas por pantalla
-
-// función que muestra el tablero actual (recibe el tablero)

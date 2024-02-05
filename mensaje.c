@@ -1,4 +1,7 @@
-
+/*
+mensaje.c
+Función de mostrar mensaje con color y efecto
+*/
 
 #include "header3r.h"
 

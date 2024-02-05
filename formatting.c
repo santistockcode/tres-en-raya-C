@@ -1,8 +1,14 @@
+/*
+formatting.c
+Macros for color, blink text and make code readable
+*/
 #include "header3r.h"
 
-// thankyous
-// https://misc.flogisoft.com/bash/tip_colors_and_formatting
-// https://stackoverflow.com/questions/3219393/stdlib-and-colored-output-in-c
+/* 
+source:
+https://misc.flogisoft.com/bash/tip_colors_and_formatting
+https://stackoverflow.com/questions/3219393/stdlib-and-colored-output-in-c
+*/
 
 #define ANSI_COLOR_RED      "\x1b[31m"
 #define ANSI_COLOR_GREEN    "\x1b[32m"

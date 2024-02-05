@@ -1,3 +1,13 @@
+/*
+Game made after watching https://www.youtube.com/@CodingIsThinking
+list "C Language - Complete Course" up to video 38.
+*/
+
+/*
+main.c
+Punto de entrada del programa
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
